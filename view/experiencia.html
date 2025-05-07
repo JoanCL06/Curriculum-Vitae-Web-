@@ -5,15 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Experiència</title>
   <link rel="stylesheet" href="../css/estils.css" />
-  <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- Font Awesome -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
   <header>
-    <nav>
-      <a href="../index.html">Qui sóc?</a>
-      <a href="estudis.html">Estudis</a>
-      <a href="experiencia.html">Experiència</a>
-      <a href="en/experience.html"><i class="fas fa-language"></i> Anglés</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><i class="fas fa-user"></i> Qui sóc?</a>
+        <li class="nav-item"><a class="nav-link active" href="estudis.html"><i class="fas fa-graduation-cap"></i> Estudis</a></li>
+        <li class="nav-item"><a class="nav-link" href="experiencia.html"><i class="fas fa-briefcase"></i> Experiència</a></li>
+        <li class="nav-item"><a class="nav-link" href="en/experience.html"><i class="fas fa-language"></i> Anglès</a></li>
     </nav>
   </header>
 
@@ -25,12 +30,24 @@
         <h2>Garbi Pere Verges School (Practices)</h2>
         <p><strong>Decembre 2024 – Maig 2025</strong></p>
         <p>Responsabilitats: Suport a l'usuari, configuració de portàtils i tauletes, instal·lació de programari i resolució de problemes bàsics de xarxa.</p>
+        <img src="../img/Garbi Pere Verges.png" alt="Garbi Pere Verges" width="800" height="400" />
       </article>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Joan Cevallos Lima</p>
+  <footer class="bg-dark text-light text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Joan Cevallos Lima</p>
+      <div>
+        <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" class="text-light me-3"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-github fa-lg"></i></a>
+      </div>
+    </div>
   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
